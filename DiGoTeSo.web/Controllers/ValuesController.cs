@@ -13,6 +13,7 @@ namespace DiGoTeSo.web.Controllers
         // GET api/values
         public IEnumerable<string> Get()
         {
+            // Primo commit di prova su branch develop
             string FileDiProvenienza = WebConfigurationManager.AppSettings["FileDiProvenienza"];
             return new string[] { "FileDiProvenienza", FileDiProvenienza };
         }
